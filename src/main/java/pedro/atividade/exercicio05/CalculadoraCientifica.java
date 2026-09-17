@@ -3,7 +3,7 @@ package pedro.atividade.exercicio05;
 public class CalculadoraCientifica extends Calculadora {
     /**
      * SOBRESCRITA (Override):
-     * Substitui o comportamento do método herdado da classe pai.
+     * Substitui o comportamento herdado da classe pai.
      * A assinatura (nome e parâmetros: Integer a, Integer b) é igual.
      * A anotação @Override garante a sobrescrita.
      */
