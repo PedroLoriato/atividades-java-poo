@@ -5,7 +5,7 @@ public class Calculadora {
         return a + b;
     }
 
-    /*
+    /**
      * SOBRECARGA (Overload):
      * Mesmo nome de método (somar), mas com tipos de parâmetros diferentes (Double).
      */

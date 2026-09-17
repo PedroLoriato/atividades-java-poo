@@ -19,7 +19,6 @@ public class Main {
         exibeFechamento(valorTotalSacas);
 
         Pedido pedidoCafe = new Pedido(
-                "Lote de Café Arábica (5 Sacas)",
                 valorTotalSacas,
                 new SemDesconto()
         );

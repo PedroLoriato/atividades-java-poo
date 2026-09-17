@@ -4,7 +4,7 @@ public class Pedido {
     private final Double valorOriginal;
     private CalculadoraDesconto estrategiaDesconto;
 
-    public Pedido(String descricao, Double valorOriginal, CalculadoraDesconto estrategiaInicial) {
+    public Pedido(Double valorOriginal, CalculadoraDesconto estrategiaInicial) {
         this.valorOriginal = valorOriginal;
         this.estrategiaDesconto = estrategiaInicial;
     }
