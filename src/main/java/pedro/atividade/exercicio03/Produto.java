@@ -1,20 +1,12 @@
 package pedro.atividade.exercicio03;
 
 public class Produto {
-    private String nome;
-    private Double preco;
+    private final String nome;
+    private final Double preco;
 
     public Produto(String nome, Double preco) {
         this.nome = nome;
         this.preco = preco;
-    }
-
-    public String getNome() {
-        return this.nome;
-    }
-
-    public Double getPreco() {
-        return this.preco;
     }
 
     @Override

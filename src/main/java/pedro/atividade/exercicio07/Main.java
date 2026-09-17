@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Main {
     private static void exibeInformacoesPagamento(List<Pagavel> folhaPagamento) {
-        folhaPagamento.forEach(pessoa -> {
-            System.out.println("Valor processado: R$ " + String.format("%.2f", pessoa.calcularPagamento()));
-        });
+        folhaPagamento.forEach(pessoa ->
+            System.out.println("Valor processado: R$ " + String.format("%.2f", pessoa.calcularPagamento()))
+        );
     }
 
     private static Double calculaTotalPagar(List<Pagavel> folhaPagamento) {
